@@ -65,7 +65,7 @@
           />
 
 
-          <v-btn type="submit" :loading="isLoading">Add</v-btn>
+          <v-btn color="green" type="submit" :loading="isLoading">Add</v-btn>
 
         </v-form>
 

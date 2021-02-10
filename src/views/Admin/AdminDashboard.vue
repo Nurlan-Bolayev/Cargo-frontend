@@ -2,6 +2,9 @@
   <div class="pa-10">
     <div class="d-flex justify-space-around align-center pa-8">
       <div class="d-flex justify-space-around">
+        <div class="d-flex justify-center">
+          <v-btn color="green" class="mt-2 mr-5" to="/admin/addPackage">Add a package</v-btn>
+        </div>
         <div class="d-flex ma-2">
           <v-text-field
               dense
@@ -85,7 +88,7 @@
       </div>
     </div>
     <div
-         v-if="filtered && undeclaredPackages.length">
+        v-if="filtered && undeclaredPackages.length">
       <div class="d-flex justify-center mt-10 mb-4" style="font-weight: bold">
         Undeclared Packages
       </div>
